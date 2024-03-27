@@ -1,0 +1,115 @@
+*{box-sizing: border-box;}
+
+.color-acento{color: blue;}
+
+body{
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{background: wheat;}
+.container{max-width: 1400px;}
+header .logo{
+    margin: 0%;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(192, 119, 29);
+    font-size: 1.8rem;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+}
+header a{
+    padding: 5px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(187, 135, 71);
+    cursor: pointer;
+}
+header a:hover{color: rgb(117, 66, 3);}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+#hero h1{
+    font-size: 1.5rem;
+    color: rgb(228, 159, 120);
+}
+
+#rama-de-estructuras{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#rama-de-estilos{
+    background-color:rgb(51, 38, 23);
+    color: white;
+    text-align: center;
+}
+#rama-de-estilos{
+    padding:150px 12px;
+}
+#rama-de-estilos h2{
+    margin-top: 0;
+    font: size 3rem;
+}
+#rama-de-estilos p{
+    display: block;
+}
+
+#final{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(153, 90, 7);
+    color: white;
+    height: 40vh;
+}
+#final h2{
+    font-size: 9vw;
+}
+#final button{
+    font: size 5vw;
+
+}
+
+footer{
+    background-color: rgb(170, 161, 161);
+    
+}
+
+footer p{
+    margin: 0;
+  
+    color: rgb(41, 31, 31);
+}
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+button{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 45px;
+    border: 2px solid rgb(158, 12, 24);
+    box-shadow: 2px 2px 10px rgb(255, 154, 2);
+    color: white;
+    background-color: rgb(133, 48, 9)
+}
+button:hover{
+    background-color: rgb(233, 92, 11)
+}
